@@ -67,7 +67,7 @@ export const DropDown = styled.ul<Props>`
     top: 6vh;
     right: 10vw;
     left: auto;
-    padding: 2em;
+    padding:  1em 2em 2em 2em;
     
     img {
       width: 1.2em;
@@ -75,6 +75,10 @@ export const DropDown = styled.ul<Props>`
 
     p {
       font-size: 13px;
+    }
+
+    .close {
+      margin: 3vw;
     }
 
     .close:hover{
@@ -95,7 +99,8 @@ export const MobileContenerTitle = styled.section`
     display: block;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1em;
+    align-items: center;
+    margin-bottom: .5em;
   }
 `;
 
